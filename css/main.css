@@ -1,0 +1,76 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+svg {
+  width: 100%;
+  margin: auto;
+  shape-rendering: crispEdges;
+}
+
+.start-of-page{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.year {
+  fill: #fff;
+}
+
+.month {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.day {
+  stroke: #333;
+}
+
+.year-title {
+  font-size: 1.5em;
+}
+
+.month-label {
+  cursor: default;
+}
+
+.month-label:hover {
+  font-weight: bold;
+}
+.weekday-label {
+  cursor: default;
+}
+
+.weekday-label:hover {
+  font-weight: bold;
+}
+
+.Reds .q0-9{fill:rgb(255,245,240)}
+.Reds .q1-9{fill:rgb(254,224,210)}
+.Reds .q2-9{fill:rgb(252,187,161)}
+.Reds .q3-9{fill:rgb(252,146,114)}
+.Reds .q4-9{fill:rgb(251,106,74)}
+.Reds .q5-9{fill:rgb(239,59,44)}
+.Reds .q6-9{fill:rgb(203,24,29)}
+.Reds .q7-9{fill:rgb(165,15,21)}
+.Reds .q8-9{fill:rgb(103,0,13)}
+.Reds .q9-9{fill:#9d9db5}
+
+#legend {
+  margin-top: 10px;
+}
+
+.this-day-active {
+  stroke: #00ff6a;
+  stroke-width: 3px;
+}
+
+#tooltip {
+  background-color: rgba(256, 256, 256, 0.9);
+  padding: 8px;
+  border: 1px solid #666;
+  /*border-radius: 5px;*/
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+}
